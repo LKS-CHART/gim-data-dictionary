@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Outcomes
+title: Alternate Outcomes
 parent: Time-varying Tables
 nav_order: 9
 ---
 
-# Medication Administrations (pre-processed)
+# Alternate Outcomes
 
 - **Filenames**: 
     -	Train: TBD
