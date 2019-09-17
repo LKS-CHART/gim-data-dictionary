@@ -27,8 +27,8 @@ nav_order: 5
  
 | Column name |  Description |
 | ----------- | ------------ |
-| `ENCOUNTER_NUM` | |
-| `time_window` | |
+| `ENCOUNTER_NUM` | Identifier used for each encounter. |
+| `time_window` | 	8-hour window since time of admission. |
 | `img_porchest1v` | Imaging order - PORTABLE Chest|
 | `img_ctthrabdplc` | Imaging order - CT Thorax Abdomen Pelvis with Contrast|
 | `img_ctthrabdplc` | Imaging order - CT Thorax Abdomen Pelvis|
@@ -89,12 +89,12 @@ nav_order: 5
 | `img_usextremityl` | Imaging order - US Extremity Left (Soft Tissue)|
 | `img_radchest3v` | Imaging order - XRAY Chest 3 Views|
 | `img_usextremityr` | Imaging order - US Extremity Right (Soft Tissue)|
-| `img_hemodiacathins` | |
+| `img_hemodiacathins` | Imaging order - Hemodialysis Catheter Insertion |
 | `img_ang0090` | Imaging order - Angiography Procedure Request|
 | `img_nva3` | Imaging order - NVA Abscess Drain Abdomen|
 | `img_radfootrt3v` | Imaging order - XRAY Foot Right 3 Views|
 | `img_radshoulderrt2v` | Imaging order - XRAY Shoulder Right 3 Views|
-| `img_ctheadcspnc` | |
+| `img_ctheadcspnc` | Imaging Order - CT Scan CT Head and Cervical Spine |
 | `img_survmetastatic` | Imaging order - XRAY Metastatic Survey|
 | `img_radhipbilat4v` | Imaging order - XRAY Hip Bilateral 4 Views|
 | `img_cardiolitepr` | Imaging order - Cardiolite Persantine|
@@ -102,10 +102,10 @@ nav_order: 5
 | `img_radshoulderlt3v` | Imaging order - XRAY Shoulder Left 3 Views|
 | `img_radanklert3v` | Imaging order - XRAY Ankle Right 3 Views|
 | `img_radkneelt4v` | Imaging order - XRAY Knee Left 4 Views|
-| `img_splngtubeins` | |
+| `img_splngtubeins` | Imaging order - XRAY NG Tube Insertion |
 | `img_usdopliver` | Imaging order - US Doppler Liver Disease Screening|
 | `img_radkneert4v` | Imaging order - XRAY Knee Right 4 Views|
-| `img_radtibfibrt2v` | |
+| `img_radtibfibrt2v` | Imaging order -  XRAY Tib Fib Right 2 Views |
 | `img_radanklelt3v` | Imaging order - XRAY Ankle Left 3 Views|
 | `img_radthorspin2v` | Imaging order - XRAY Thoracic Spine 2 Views|
 | `img_mrabrain` | Imaging order - MRA Brain|
@@ -129,71 +129,71 @@ nav_order: 5
 | `img_mri0700` | Imaging order - MRI0700|
 | `img_mri0824` | Imaging order - MRI0824|
 | `img_mri0832` | Imaging order - MRI0832|
-| `diet_tube_feed` | |
-| `diet_regular_other` | |
-| `diet_oral` | |
-| `diet_renal` | |
-| `diet_diabetic` | |
-| `diet_cardiac` | |
-| `diet_npo` | |
-| `diet_regular` | |
-| `diet_clear_fluids` | |
-| `diet_nutrition_supplement` | |
-| `telemetry` | |
-| `consult_physio` | |
-| `consult_general` | |
-| `consult_stroke` | |
-| `consult_social` | |
-| `consult_speech` | |
-| `consult_dietitian` | |
-| `consult_chaplain` | |
-| `consult_physiotherapist` | |
-| `consult_acute` | |
-| `consult_gastroenterology` | |
-| `consult_respiratory` | |
-| `consult_occupational` | |
-| `consult_psychiatry` | |
-| `consult_wound` | |
-| `consult_physiotherapy` | |
-| `consult_geriatric` | |
-| `consult_pharmacist` | |
-| `consult_chiropodist` | |
-| `consult_addiction` | |
-| `consult_research` | |
-| `cardio_ecg` | |
-| `cardio_vascularlab` | |
-| `cardio_echo` | |
-| `cardio_holter` | |
-| `cardio_peripheralvascular` | |
-| `resp_oxygen` | |
-| `resp_pulmonaryfunctiontest` | |
-| `resp_bipapcpap` | |
-| `resp_respiratoryintervention` | |
-| `resp_chesttube` | |
-| `resp_ventilator` | |
-| `act_sitter` | |
-| `act_constantcare` | |
-| `act_opcophysrestr` | |
-| `act_restrictions` | |
-| `code_gmc` | |
-| `code_ccc` | |
-| `code_full` | |
-| `code_als` | |
-| `opcociwacare` | |
-| `opcohephiaptt` | |
-| `opcoivinslow` | |
-| `opcoivinshi` | |
-| `opcochfdiuret` | |
-| `trans_infusefrozenplasma` | |
-| `trans_transfusepackedredbloodcells` | |
-| `trans_transfuseplatelets` | |
-| `trans_infusealbumin25` | |
-| `trans_transfusionother` | |
-| `trans_infuseivimmuneglobulin` | |
-| `trans_prothrombincomplexconcentratepcc` | |
-| `wound_dressingswoundcare` | |
-| `wound_skincare` | |
-| `neuro_eeg` | |
-| `neuro_emg` | |
+| `diet_tube_feed` | Diet order - tube feed |
+| `diet_regular_other` | Diet order - regular other|
+| `diet_oral` | Diet order - oral|
+| `diet_renal` | Diet order - renal|
+| `diet_diabetic` | Diet order - diabetic|
+| `diet_cardiac` | Diet order - cardiac|
+| `diet_npo` | Diet order - NPO |
+| `diet_regular` | Diet order - Regular|
+| `diet_clear_fluids` | Diet order - clear fluids|
+| `diet_nutrition_supplement` | Diet order - nutrition supplement|
+| `telemetry` | Telemetry order |
+| `consult_physio` | Consult order |
+| `consult_general` | Consult order |
+| `consult_stroke` |  Consult order |
+| `consult_social` |  Consult order |
+| `consult_speech` |  Consult order |
+| `consult_dietitian` |  Consult order |
+| `consult_chaplain` |  Consult order |
+| `consult_physiotherapist` |  Consult order |
+| `consult_acute` |  Consult order |
+| `consult_gastroenterology` |  Consult order |
+| `consult_respiratory` |  Consult order |
+| `consult_occupational` |  Consult order |
+| `consult_psychiatry` |  Consult order |
+| `consult_wound` |  Consult order |
+| `consult_physiotherapy` |  Consult order |
+| `consult_geriatric` |  Consult order |
+| `consult_pharmacist` |  Consult order |
+| `consult_chiropodist` |  Consult order |
+| `consult_addiction` |  Consult order |
+| `consult_research` |  Consult order |
+| `cardio_ecg` | Cardiovascular diagnostics |
+| `cardio_vascularlab` | Cardiovascular diagnostics |
+| `cardio_echo` | Cardiovascular diagnostics |
+| `cardio_holter` | Cardiovascular diagnostics |
+| `cardio_peripheralvascular` | Cardiovascular diagnostics |
+| `resp_oxygen` | Respiratory order |
+| `resp_pulmonaryfunctiontest` | Respiratory order |
+| `resp_bipapcpap` | Respiratory order |
+| `resp_respiratoryintervention` | Respiratory order |
+| `resp_chesttube` | Respiratory order |
+| `resp_ventilator` | Respiratory order |
+| `act_sitter` | Activity & limitations |
+| `act_constantcare` | Activity & limitations |
+| `act_opcophysrestr` | Activity & limitations |
+| `act_restrictions` | Activity & limitations |
+| `code_gmc` | Code status -  No CPR: General Medical Care|
+| `code_ccc` | Code status - No CPR: Comprehensive Comfort Care |
+| `code_full` | Code status - Full Code |
+| `code_als` | Code status - No CPR: Advanced Life Support |
+| `opcociwacare` | Protocol order |
+| `opcohephiaptt` | Protocol order |
+| `opcoivinslow` | Protocol order |
+| `opcoivinshi` | Protocol order |
+| `opcochfdiuret` | Protocol order |
+| `trans_infusefrozenplasma` | Transfusion |
+| `trans_transfusepackedredbloodcells` |  Transfusion |
+| `trans_transfuseplatelets` |  Transfusion |
+| `trans_infusealbumin25` |  Transfusion |
+| `trans_transfusionother` |  Transfusion |
+| `trans_infuseivimmuneglobulin` |  Transfusion |
+| `trans_prothrombincomplexconcentratepcc` |  Transfusion |
+| `wound_dressingswoundcare` | Dressings & wound/skin care|
+| `wound_skincare` | Dressings & wound/skin care |
+| `neuro_eeg` | Neurophysiology |
+| `neuro_emg` | Neurophysiology |
 
 
