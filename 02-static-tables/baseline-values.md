@@ -28,23 +28,23 @@ nav_order: 3
  
 | Column name |  Description |
 | ----------- | ------------ |
-| `ENCOUNTER_NUM` | | 
-| `lab_co2` | | 
-| `lab_cl` | | 
-| `lab_na` | | 
-| `lab_agap` | | 
-| `lab_hct` | | 
-| `lab_mch` | | 
-| `lab_mchc` | | 
-| `lab_rbc` | | 
-| `lab_iwbcr` | | 
-| `lab_mcv` | | 
-| `lab_rdw` | | 
-| `lab_hgb` | | 
-| `lab_cr` | | 
-| `lab_plt` | | 
-| `lab_glur` | | 
-| `lab_k` | | 
+| `ENCOUNTER_NUM` | Identifier used for each encounter. | 
+| `lab_co2` | Total CO2 | 
+| `lab_cl` | Chloride | 
+| `lab_na` | Sodium | 
+| `lab_agap` | Anion Gap | 
+| `lab_hct` |  HCT | 
+| `lab_mch` | MCH | 
+| `lab_mchc` | MCHC | 
+| `lab_rbc` | RBC | 
+| `lab_iwbcr` | WBC | 
+| `lab_mcv` | MCV | 
+| `lab_rdw` | RDW | 
+| `lab_hgb` | HGB | 
+| `lab_cr` | Creatinine | 
+| `lab_plt` | 	PLT | 
+| `lab_glur` | Glucose Random | 
+| `lab_k` | Potassium | 
 | `lab_mpv` | | 
 | `lab_alymp` | | 
 | `lab_aeos` | | 
