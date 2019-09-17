@@ -7,23 +7,23 @@ nav_order: 3
 
 # Baseline Values
 
- - **Filenames**: 
+- **Filenames**: 
     -	Train: TBD
     -	Valid: TBD
     -	Test: TBD
 
 
- - **Table Purpose**:  This table includes the mean values for variables collected prior to admission to the GIM ward. 
+- **Table Purpose**:  This table includes the mean values for variables collected prior to admission to the GIM ward. 
  
- - **Number of rows**: 
+- **Number of rows**: 
     - Train: 16,976
     -	Valid: 2,405
     -	Test: 958
 
- - **Links to**: `ENCOUNTER_NUM`
+- **Links to**: `ENCOUNTER_NUM`
  
  
- ## Table columns
+## Table columns
  
  
 | Column name |  Description |
