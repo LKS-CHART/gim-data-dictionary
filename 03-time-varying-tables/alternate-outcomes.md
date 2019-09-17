@@ -25,11 +25,11 @@ nav_order: 9
  
 | Column name |  Description |
 | ----------- | ------------ |
-| `ENCOUNTER_NUM` | |
-| `window` | |
-| `sepsis_24` | |
-| `sepsis_48` | |
-| `sepsis_72` | |
-| `resp_24` | | 
-| `resp_48` | |
-| `resp_72` | | 
+| `ENCOUNTER_NUM` | Identifier used for each encounter. |
+| `window` | 8-hour window since time of admission. |
+| `sepsis_24` | 1 if patient experiences sepsis **in the next 24 hours**, 0 otherwise. |
+| `sepsis_48` | 1 if patient experiences sepsis **in the next 48 hours**, 0 otherwise.  |
+| `sepsis_72` | 1 if patient experiences sepsis **in the next 72 hours**, 0 otherwise.  |
+| `resp_24` |  1 if patient experiences respiratory failure **in the next 24 hours**, 0 otherwise.  | 
+| `resp_48` | 1 if patient experiences respiratory failure **in the next 48 hours**, 0 otherwise.   |
+| `resp_72` | 1 if patient experiences respiratory failure **in the next 72 hours**, 0 otherwise.  | 
