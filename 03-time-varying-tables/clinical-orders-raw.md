@@ -13,7 +13,7 @@ nav_order: 4
     -	Test: TBD
 
 
-- **Table Purpose**: This includes the start and stop times for all clinical orders in the data. The data includes the following variables: ENCOUNTER_NUM, variable, order_start, order_end.  The variables order_start and order_end are provided in hours in admission to the GIM ward. The prefix to each value in the variable column describes the type of order (e.g: diet, telemetry, neuro, cardio, etc…). 
+- **Table Purpose**: This includes the start and stop times for all clinical orders in the data. The data includes the following variables: ENCOUNTER_NUM, variable, order_start, order_end.  The variables order_start and order_end are provided in hours in admission to the GIM ward. The prefix to each value in the variable column describes the type of order (e.g: diet, telemetry, neuro, cardio, etc…). The values from the variable column is the value used to name columns in the [pre-processed data](./clinical-orders-preproc). Start and end times less than 0 are measurements that would have taken place before the patient was in the GIM ward (e.g. while in the emergency department). 
  
 - **Number of rows**: 
     - Train: TBD
