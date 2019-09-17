@@ -15,7 +15,7 @@ nav_order: 2
  
  - **Links to**: `ENCOUNTER_NUM`
  
- ## Tables columns
+## Tables columns
  
  | Column name |  Description |
  | ----------- | ------------ |
