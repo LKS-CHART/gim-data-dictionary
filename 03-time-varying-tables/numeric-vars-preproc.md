@@ -27,8 +27,8 @@ nav_order: 3
  
 | Column name |  Description |
 | ----------- | ------------ |
-| `ENCOUNTER_NUM` | |
-| `time_window` | |
+| `ENCOUNTER_NUM` | Identifier used for each encounter. |
+| `time_window` | 8-hour window since time of admission. |
 
 
 The variables below also have a corresponding **indicator variable** and a **time elapsed since** variable.
