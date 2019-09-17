@@ -27,10 +27,10 @@ nav_order: 4
  
 | Column name |  Description |
 | ----------- | ------------ |
-| `ENCOUNTER_NUM` | | 
+| `ENCOUNTER_NUM` | Identifier used for each encounter. | 
 | `marital`| |
 | `province` | |
 | `language` | |
 | `religion` |  | 
-| `age` | |
-| `gender` | |
+| `age` | Age in years, at time of admission. |
+| `gender` | 1 for F, 0 for M. |
