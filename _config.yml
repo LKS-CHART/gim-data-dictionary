@@ -1,1 +1,11 @@
-remote_theme: tomjoht/documentation-theme-jekyll
+remote_theme: pmarsceill/just-the-docs
+title: GIM Data Dictionary
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+    "LKS-CHART":
+      - "https://www.chartdatascience.ca/"
+  
