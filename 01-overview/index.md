@@ -81,9 +81,9 @@ Where applicable, we provide both raw and pre-processed forms of the data.
 
 | Table | Raw | Pre-processed |
 | ----- | --- | ------------- |
-| Encounters | [link](../02-static-tables/encounters) | --- |
-| Baseline values | [link](../02-static-tables/baseline-values) | --- |
-| Demographics | [link](../02-static-tables/demographics) | --- |
+| Encounters | [link](./02-static-tables/encounters) | --- |
+| Baseline values | [link](./02-static-tables/baseline-values) | --- |
+| Demographics | [link](./02-static-tables/demographics) | --- |
 
 ### Time-varying tables
 
