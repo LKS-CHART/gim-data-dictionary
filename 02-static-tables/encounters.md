@@ -20,21 +20,16 @@ nav_order: 2
 | Column name |  Description |
 | ----------- | ------------ |
 | `ENCOUNTER_NUM`| Identifier used for each encounter. |
-
 | `FROM_SERVICE`| The service before transfer to GIM. |
 | `FROM_SERVICE_CD`| The `FROM_SERVICE` code. |
 | `FROM_UNIT`| The unit where the patient was transferred from. |
 | `FROM_LOCATION_SERVICE`| The service associated with `FROM_UNIT` |
-
 | `PALLIATIVE_ENTRY`| the date and time of entry to palliative care |
 | `PATIENT_DK`| the date and time of entry to palliative care|
-
 | `ADT_DISCHARGE`| The discharge disposition in the EHR. |
-
 | `ICD10`| ICD code of the Most Responsible Diagnosis |
 | `MRP_DIAGNOSIS`| Most responsible diagnosis |
 | `age`| Patient age |
-
 | `pre_gim_icu`| Flag for patient having been in the ICU prior to GIM entry |
 | `post_gim_icu`| Flag for patient entering ICU |
 | `death`| Flag for mortality |
