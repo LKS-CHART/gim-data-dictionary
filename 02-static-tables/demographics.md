@@ -29,7 +29,7 @@ nav_order: 4
 | ----------- | ------------ |
 | `ENCOUNTER_NUM` | Identifier used for each encounter. | 
 | `marital`| The possible values are `marital_divorced_widowed`, `marital_parterned`, `marital_single`, and `marital_unknown_other`.  |
-| `province` | |
+| `province` | Possible values are Ontario or Other. |
 | `language` | |
 | `religion` | | 
 | `age` | Age in years, at time of admission. |
