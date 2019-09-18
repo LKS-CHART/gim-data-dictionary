@@ -30,5 +30,5 @@ nav_order: 7
 | `ENCOUNTER_NUM` | Identifier used for each encounter. |
 | `time_window` | 8-hour window since time of admission. |
 | `med_[]` | 1 if medication with corresponding AHFS code was administered; 0 otherwise. | 
-| `med_NA` | | 
+| `med_NA` | 1 if medication order is written as missing. | 
 
