@@ -30,7 +30,7 @@ nav_order: 4
 | `ENCOUNTER_NUM` | Identifier used for each encounter. | 
 | `marital`| The possible values are `marital_divorced_widowed`, `marital_parterned`, `marital_single`, and `marital_unknown_other`.  |
 | `province` | Possible values are Ontario or Other. |
-| `language` | |
-| `religion` | | 
+| `language` | Primary language spoken by patient. |
+| `religion` | Religion of patient. | 
 | `age` | Age in years, at time of admission. |
 | `gender` | 1 for F, 0 for M. |
