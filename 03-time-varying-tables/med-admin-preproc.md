@@ -8,17 +8,17 @@ nav_order: 7
 # Medication Administrations (pre-processed)
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_medication_admin_timeseries_8hr.csv`
+    -	Valid: `valid_medication_admin_timeseries_8hr.csv`
+    -	Test: `test_medication_admin_timeseries_8hr.csv`
 
 
 - **Table Purpose**: Contains all medication administrations by AHFS class. The AHFS code can be extracted from the numeric values in the variable name. Refer to [this guide](http://www.mgh.org/Content/Uploads/UP%20Health%20System%20-%20Marquette/files/formulary/AHFS%20Pharmacologic-Therapeutic%20Classification%20(2012).pdf) to see what each AHFS code corresponds to. A value one 1 is used when a medication from the corresponding AHFS class was administered in the 8 hour window; 0 otherwise.
 
 - **Number of rows**: 
-    - Train: 16,976
-    -	Valid: 2,405
-    -	Test: 958
+    - Train: 362,179
+    -	Valid: 52,181
+    -	Test: 20,538
 
 - **Links to**: `ENCOUNTER_NUM`, `time_window`
  
