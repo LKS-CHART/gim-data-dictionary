@@ -81,9 +81,9 @@ Where applicable, we provide both raw and pre-processed forms of the data.
 
 | Table | Raw | Pre-processed |
 | ----- | --- | ------------- |
-| Encounters | [link](./02-static-tables/encounters) | N/A |
-| Baseline values | [link](./02-static-tables/baseline-values) | N/A |
-| Demographics | [link](./02-static-tables/demographics) | N/A |
+| Encounters | [link](./02-static-tables/encounters) | [link](./02-static-tables/encounters) |
+| Baseline values | [link](./02-static-tables/baseline-values) | [link](./02-static-tables/baseline-values) |
+| Demographics | [link](./02-static-tables/demographics) |  [link](./02-static-tables/demographics) |
 
 ### Time-varying tables
 
@@ -92,8 +92,8 @@ Where applicable, we provide both raw and pre-processed forms of the data.
 | Numeric values | [link](../03-time-varying-tables/numeric-vars-raw) | [link](./03-time-varying-tables/numeric-vars-preproc) |
 | Clinical orders | [link](../03-time-varying-tables/clinical-orders-raw) | [link](./03-time-varying-tables/clinical-orders-preproc) |
 | Medication administrations | [link](../03-time-varying-tables/med-admin-raw) | [link](./03-time-varying-tables/med-admin-preproc) |
-| Outcomes | [link](../03-time-varying-tables/outcomes) | N/A |
-| Alternate outcomes | [link](../03-time-varying-tables/alternate-outcomes) | N/A |
+| Outcomes | N/A |  [link](../03-time-varying-tables/outcomes)  |
+| Alternate outcomes | N/A | [link](../03-time-varying-tables/alternate-outcomes)  |
 
 
 
