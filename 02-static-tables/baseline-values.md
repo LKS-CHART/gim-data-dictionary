@@ -8,9 +8,9 @@ nav_order: 3
 # Baseline Values
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_baseline_values.csv`
+    -	Valid: `valid_baseline_values.csv`
+    -	Test: `test_baseline_values.csv`
 
 
 - **Table Purpose**:  This table includes the mean values for variables collected prior to admission to the GIM ward. 
@@ -18,7 +18,7 @@ nav_order: 3
 - **Number of rows**: 
     - Train: 16,976
     -	Valid: 2,405
-    -	Test: 958
+    -	Test: 985
 
 - **Links to**: `ENCOUNTER_NUM`
  
