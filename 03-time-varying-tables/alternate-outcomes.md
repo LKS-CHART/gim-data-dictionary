@@ -8,16 +8,16 @@ nav_order: 9
 # Alternate Outcomes
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_alternate_outcome_timeseries_8hr.csv`
+    -	Valid: `valid_alternate_outcome_timeseries_8hr.csv`
+    -	Test: `test_alternate_outcome_timeseries_8hr.csv`
 
 - **Table Purpose**: Alternate outcomes (i.e., sepsis, respiratory failure) for every encounter in 8 hour time windows.
 
 - **Number of rows**: 
-    - Train: 16,976
-    -	Valid: 2,405
-    -	Test: 958
+    - Train: 362,179
+    -	Valid: 52,181
+    -	Test: 20,538
 
 - **Links to**: `ENCOUNTER_NUM`, `window`
  
