@@ -8,9 +8,9 @@ nav_order: 4
 # Baseline Values
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_demographics.csv`
+    -	Valid: `valid_demographics.csv`
+    -	Test: `test_demographics.csv`
 
 
 - **Table Purpose**:  Contains patient demographics. 
@@ -18,7 +18,7 @@ nav_order: 4
 - **Number of rows**: 
     - Train: 16,976
     -	Valid: 2,405
-    -	Test: 958
+    -	Test: 985
 
 - **Links to**: `ENCOUNTER_NUM`
  
