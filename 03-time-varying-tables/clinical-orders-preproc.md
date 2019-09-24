@@ -8,18 +8,18 @@ nav_order: 5
 # Clinical Orders (pre-processed)
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_clinical_orders_on_off_timeseries_8hr.csv`
+    -	Valid: `valid_clinical_orders_on_off_timeseries_8hr.csv`
+    -	Test: `test_clinical_orders_on_off_timeseries_8hr.csv`
 
 
 - **Table Purpose**: Contains all clinical orders along with the time the order was started and the time the order was completed. The format of the variable names describes the type of order, followed by an underscore, followed by the order name. For example, diet_regular is a diet order for regular food.  
 
 - **Number of rows**: 
-    - Train: 16,976
-    -	Valid: 2,405
-    -	Test: 958
-
+    - Train: 362,179
+    -	Valid: 52,181
+    -	Test: 20,538
+    
 - **Links to**: `ENCOUNTER_NUM`, `time_window`
  
  
