@@ -8,17 +8,17 @@ nav_order: 3
 # Numeric Variables (pre-processed)
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_numeric_timeseries_8hr.csv`
+    -	Valid: `valid_numeric_timeseries_8hr.csv`
+    -	Test: `test_numeric_timeseries_8hr.csv`
 
 
 - **Table Purpose**:  : Contains all numeric variables (e.g. vitals and labs) in 8 hour windows. For each numeric result we include a corresponding binary variable is used to indicate if that measure was taken in the 8 hour window and a counter variable used to describe how many 8 hour windows since the last measurement (e.g. vital_pulse, vital_pulse_measured, and vital_pulse_last_measured)
  
 - **Number of rows**: 
-    - Train: 16,976
-    -	Valid: 2,405
-    -	Test: 958
+    - Train: 362,179
+    -	Valid: 52,181
+    -	Test: 20,538
 
 - **Links to**: `ENCOUNTER_NUM`, `time_window`
  
