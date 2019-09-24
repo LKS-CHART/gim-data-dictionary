@@ -8,17 +8,17 @@ nav_order: 8
 # Outcomes
 
 - **Filenames**: 
-    -	Train: TBD
-    -	Valid: TBD
-    -	Test: TBD
+    -	Train: `train_outcome_timeseries_8hrs.csv`
+    -	Valid: `valid_outcome_timeseries_8hr.csv`
+    -	Test: `test_outcome_timeseries_8hr.csv`
 
 
 - **Table Purpose**: : Contains the outcome variables. OUTCOME_ALL is a binary variable indicating whether the outcome occurs or not for the encounter. OUTCOME_TYPE describes the type of outcome. The remaining outcome variables describe whether the outcome occurs within a given time frame. For example, outcome_all_24 will be a 1 if the encounter experiences the outcome within 24 hours and 0 otherwise. 
 
 - **Number of rows**: 
-    - Train: 16,976
-    -	Valid: 2,405
-    -	Test: 958
+    - Train: 362,179
+    -	Valid: 52,181
+    -	Test: 20,538
 
 - **Links to**: `ENCOUNTER_NUM`, `time_window`
  
