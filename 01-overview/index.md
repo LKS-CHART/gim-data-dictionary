@@ -89,11 +89,11 @@ Where applicable, we provide both raw and pre-processed forms of the data.
 
 | Table | Raw | Pre-processed |
 | ----- | --- | ------------- |
-| Numeric values | [link](../03-time-varying-tables/numeric-vars-raw) | [link](./03-time-varying-tables/numeric-vars-preproc) |
-| Clinical orders | [link](../03-time-varying-tables/clinical-orders-raw) | [link](./03-time-varying-tables/clinical-orders-preproc) |
-| Medication administrations | [link](../03-time-varying-tables/med-admin-raw) | [link](./03-time-varying-tables/med-admin-preproc) |
-| Outcomes | N/A |  [link](../03-time-varying-tables/outcomes)  |
-| Alternate outcomes | N/A | [link](../03-time-varying-tables/alternate-outcomes)  |
+| Numeric values | [link](./03-time-varying-tables/numeric-vars-raw) | [link](./03-time-varying-tables/numeric-vars-preproc) |
+| Clinical orders | [link](./03-time-varying-tables/clinical-orders-raw) | [link](./03-time-varying-tables/clinical-orders-preproc) |
+| Medication administrations | [link](./03-time-varying-tables/med-admin-raw) | [link](./03-time-varying-tables/med-admin-preproc) |
+| Outcomes | N/A |  [link](./03-time-varying-tables/outcomes)  |
+| Alternate outcomes | N/A | [link](./03-time-varying-tables/alternate-outcomes)  |
 
 
 
