@@ -123,12 +123,12 @@ nav_order: 5
 | `img_intpcin` | Imaging order - PICC Insertion Double Lumen|
 | `img_intpcsl` | Imaging order - PICC Insertion Single Lumen|
 | `img_usabdltdpelvltd` | Imaging order - US Abdomen Limited and Pelvis Limited|
-| `img_mri0733` | Imaging order - MRI0733|
-| `img_mri0759` | Imaging order - MRI0759|
-| `img_mri0701` | Imaging order - MRI0701|
-| `img_mri0700` | Imaging order - MRI0700|
-| `img_mri0824` | Imaging order - MRI0824|
-| `img_mri0832` | Imaging order - MRI0832|
+| `img_mri0733` | Imaging order - MRI Stroke clinic Time of Flight Circle of Willis|
+| `img_mri0759` | Imaging order - MRI Lumbar Spine|
+| `img_mri0701` | Imaging order - MRI Fast Brain Gadolinium|
+| `img_mri0700` | Imaging order - MRI Fast Brain|
+| `img_mri0824` | Imaging order - MRI Osteomyelitis Unilateral|
+| `img_mri0832` | Imaging order - MRI Liver MRCP|
 | `diet_tube_feed` | Diet order - tube feed |
 | `diet_regular_other` | Diet order - regular other|
 | `diet_oral` | Diet order - oral|
