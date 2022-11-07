@@ -33,4 +33,4 @@ nav_order: 4
 | `language` | Primary language spoken by patient. |
 | `religion` | Religion of patient. | 
 | `age` | Age in years, at time of admission. |
-| `gender` | 1 for F, 0 for M. |
+| `sex` | 1 for F, 0 for M. |
